@@ -1,0 +1,65 @@
+/* Page container */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card box */
+.register-box {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  text-align: center;
+}
+
+/* Heading */
+.register-box h2 {
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.register-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #b2bec3;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.register-box input:focus {
+  border-color: #0984e3;
+  box-shadow: 0 0 5px rgba(9, 132, 227, 0.3);
+}
+
+/* Button */
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.register-box button:hover {
+  background-color: #74b9ff;
+}
+
+/* Placeholder text */
+.register-box input::placeholder {
+  color: #b2bec3;
+}
